@@ -1,0 +1,12 @@
+percent_rain = [94.3, 45, 100, 78, 16, 5.3, 79, 86]
+resps = []
+for i in percent_rain:
+    if percent_rain[i] >  90:
+        resps.append("Bring an umbrella.")
+    elif float(percent_rain[i]) > 80:
+        resps.append("Good for the flowers?")
+    elif float(percent_rain >50):
+        resps.append("Nice day!")
+    else:
+        resps.append("Nice day!")
+print(resps)
